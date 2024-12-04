@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#date-button {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: aqua;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s, opacity 0.5s;
+}
+
+#date-button:hover {
+    background-color:  rgb(175, 186, 238);
+}
+
+#date-button:active {
+    transform: translate(-50%, -50%) scale(0.98);
+}
